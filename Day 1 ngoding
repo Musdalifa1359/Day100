@@ -1,0 +1,9 @@
+package hellowordd;
+
+public class HelloWordd {
+
+    public static void main(String[] args) {
+        System.out.println("welcome to the world of coding");
+    }
+    
+}
