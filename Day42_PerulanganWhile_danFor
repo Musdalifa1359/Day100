@@ -1,0 +1,22 @@
+
+package Musdalifa;
+
+
+public class PerulanganWhile {
+    public static void main(String[] args) {
+        for (int i = 5; i <= 100; i++){
+            if (i % 2== 0){
+                System.out.println(i);
+            }
+        }
+        int s = 5;
+        while (s <= 100){
+            if (s % 2 ==0)
+            System.out.println(s);
+           
+        }
+         s++;
+    }
+    
+}
+
