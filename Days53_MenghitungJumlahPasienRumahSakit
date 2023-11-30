@@ -1,0 +1,24 @@
+
+package com.mycompany.days53_jumlahpasienrumahsakit;
+
+import java.util.Scanner;
+
+public class Days53_JumlahPasienRumahSakit {
+
+    public static void main(String[] args) {
+        int jumlahPasienKeluar, jumlahPasienMasuk;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah pasien keluar: ");
+        jumlahPasienKeluar = input.nextInt();
+
+        System.out.print("Masukkan jumlah pasien masuk: ");
+        jumlahPasienMasuk = input.nextInt();
+
+        int totalJumlahPasien = jumlahPasienKeluar + jumlahPasienMasuk;
+
+        System.out.println("Total jumlah pasien: " + totalJumlahPasien);
+    }
+}
+
